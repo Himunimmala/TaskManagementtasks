@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0398fc7e-3ec3-4d9c-b79a-c1558d528d87" name="Changes" comment="JAVA Task practice -07" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="40f4daa4-258f-496f-aa49-6cde89d143ca" />
+        <option name="url" value="https://github.com/Himunimmala/TaskManagement.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GLcLugBUQ8bR6GFGuC9wnVXOUH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/hini1022/Downloads/TaskManagement-master/TaskManagement-master"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0398fc7e-3ec3-4d9c-b79a-c1558d528d87" name="Changes" comment="" />
+      <created>1666171253904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666171253904</updated>
+    </task>
+    <task id="LOCAL-00001" summary="JAVA TASK-01,02">
+      <created>1666189205820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189205820</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JAVA TASK-01,02">
+      <created>1666342496697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666342496697</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JAVA TASK IMPLEMENTATION">
+      <created>1666352749962</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666352749962</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JAVA TASK IMPLEMENTATION">
+      <created>1666355492473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666355492473</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JAVA TASK IMPLEMENTATION">
+      <created>1666603558256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666603558256</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JAVA TASK IMPLEMENTATION">
+      <created>1666604601763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666604601763</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JAVA Task practice -04">
+      <created>1666701144782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666701144782</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JAVA Task practice -05">
+      <created>1666787565999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666787565999</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JAVA Task practice -05">
+      <created>1666787627682</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666787627682</updated>
+    </task>
+    <task id="LOCAL-00010" summary="JAVA Task practice -07">
+      <created>1666874343450</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666874343450</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JAVA TASK-01,02" />
+    <MESSAGE value="JAVA TASK IMPLEMENTATION" />
+    <MESSAGE value="JAVA Task practice -04" />
+    <MESSAGE value="JAVA Task practice -05" />
+    <MESSAGE value="JAVA Task practice -07" />
+    <option name="LAST_COMMIT_MESSAGE" value="JAVA Task practice -07" />
+  </component>
+</project>
