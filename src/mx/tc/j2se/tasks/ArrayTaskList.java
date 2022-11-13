@@ -61,7 +61,7 @@ public class ArrayTaskList<T> extends AbstractTaskList {
 
             if(myData[i]==task)
             {
-                System.out.println("in");
+               // System.out.println("in");
                 for (int j = i; j < size ; j++) {
                     myData[j] = myData[j + 1];
                 }

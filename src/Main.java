@@ -9,7 +9,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Main {
+public class Main
+{
     public static void main(String[] args)
     {
 
@@ -22,30 +23,33 @@ public class Main {
         Task t4=new Task("Meeting with friends",LocalDateTime.of(2014, Month.valueOf("MARCH"),1,8,15),LocalDateTime.of(2014, Month.valueOf("SEPTEMBER"),1,8,15),LocalTime.of(23,0,0));
 
         /**
-         * PRACTICE
+         * PRACTICE TASK 1
          */
         /**
          * Task t2=new Task("Morning run",-7);
          * It is used to check the exception
          */
-//        System.out.println("TASK CREATION AND CHECKING WHETHER THE TASK IS CREATED WITH APPROPIATE FUNCTIONALITIES");
-//        System.out.println("getting start time:"+t1.getStartTime());
-//        t1.setActive(false); //setting the active state to false
-//        System.out.println(t1.isActive());
-//        Task t3=new Task("Morning run",5);
-//        System.out.println(t3.getStartTime());
-//        System.out.println(t3.getEndTime());
-//        System.out.println(t3.isActive()); //
-//        System.out.println(t3.getRepeatInterval());//indicates not repeated task
-//        t3.setTime(3,8,1);// changes the unrepeated t2 task to repeated task
-//        System.out.println(t3.getRepeatInterval());// checks whether repeated or not
-//        t3.setTime(5);// changes the repeated to unrepeated
-//        System.out.println("the repeat interval"+t1.getRepeatInterval());// checks whether repeated or not (0-not repeated)
+        System.out.println("TASK CREATION AND CHECKING WHETHER THE TASK IS CREATED WITH APPROPIATE FUNCTIONALITIES");
+        System.out.println("getting start time:"+t1.getStartTime());
+        t1.setActive(false); //setting the active state to false
+        System.out.println(t1.isActive());
+        Task t5=new Task("Morning run",LocalDateTime.of(2014, Month.valueOf("AUGUST"),27,6,15));
+        //System.out.println(t3.getStartTime());
+        System.out.println("getting end time:"+t2.getEndTime());
+        System.out.println(t3.isActive()); //
+        System.out.println(t3.getRepeatInterval());//indicates not repeated task
+       // t3.setTime(3,8,1);// changes the unrepeated t2 task to repeated task
+        System.out.println(t3.getRepeatInterval());// checks whether repeated or not
+      //  t3.setTime(5);// changes the repeated to unrepeated
+       // System.out.println("the repeat interval"+t1.getRepeatInterval());// checks whether repeated or not (0-not repeated)
         /**
          * The above stmt gives the nexttime using the current time according to the interval.
          */
         //System.out.println("next time after:"+t1.nextTimeAfter(LocalDateTime.of(2014, Month.valueOf("AUGUST"),20,8,0,1)));
 
+        /**
+         END OF TASK-1
+         */
 
         /**
          * ARRAYLIST IMPLEMENTATION (USER DEFINED)
@@ -56,11 +60,12 @@ public class Main {
         /**
          * adding the task objects to the arraylist
          */
+        list.add(t1);
+        list.add(t2);
+        list.add(t3);
         list.add(t4);
-//        list.add(t5);
-//        list.add(t6);
-//        list.add(t7);
-//        list.add(t8);
+        list.add(t5);
+
 //        list.add(t9);
 //        list.add(t10);
         /**
@@ -79,7 +84,7 @@ public class Main {
           list.getTask(19) gives the user defined exception*/
 
         //Remove element from custom ArrayList
-        System.out.println("\n");
+//        System.out.println("\n");
        System.out.println("element removed from index: "  + list.remove(t2));
 
         System.out.println("size "  + list.remove(t2));
@@ -190,17 +195,18 @@ public class Main {
 //        * Equals() method helps to check whether two tasks are equal or not.
 //        */
 //
-//        AbstractTaskList abobject2=new ArrayTaskList();
-//        abobject2.add(t2);
-//        abobject2.add(t4);
-//        abobject2.add(t6);
-//        abobject2.add(t7);
-//
-//
-////        System.out.println("Checking equals() method:"+abobject.equals(abobject2));
-////        AbstractTaskList a= abobject2.clone();
-////        a.display();
-//
+        AbstractTaskList abobject2=new ArrayTaskList();
+        abobject2.add(t2);
+        abobject2.add(t4);
+        abobject2.add(t1);
+        abobject2.add(t2);
+
+
+       // System.out.println("Checking equals() method:"+abobject.equals(abobject2));
+        AbstractTaskList a= abobject2.clone();
+        System.out.println("After Arraylist cloning:");
+        a.display();
+
 //
 ////        System.out.println(abobject.equals(abobject,abobject2));
 //
@@ -237,7 +243,6 @@ public class Main {
 //        abobject.display();
 
 
-/*
 
 
 
@@ -249,13 +254,11 @@ public class Main {
         System.out.println(abobject.remove(t2));
         System.out.println("displaying the tasks after removal");
         abobject.display();
-        System.out.println("selection of tasks:");
-        AbstractTaskList atl=abobject.incoming(2,9);
-        for(int i=0;i<atl.size();i++)
-        {
-            System.out.println(atl.getTask(i).getTitle());
-        }
-*/
+        System.out.println("selection of tasks using streams :");
+        Stream<Task> atl=abobject.incoming(oh,LocalDateTime.of(2014, Month.valueOf("MARCH"),1,8,15),LocalDateTime.of(2014, Month.valueOf("SEPTEMBER"),1,8,15));
+
+        System.out.println(atl.findAny());
+
 
        /**
          * ABSTRACT TASK LIST USING LINKED LIST

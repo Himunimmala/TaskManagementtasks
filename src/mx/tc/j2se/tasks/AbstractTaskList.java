@@ -120,7 +120,7 @@ public abstract class AbstractTaskList {
 
     public AbstractTaskList clone()
     {
-       AbstractTaskList atl=new AbstractTaskList() {
+       AbstractTaskList atl=new ArrayTaskList() {
        };
 
 //        Iterator<mx.tc.j2se.tasks.Task> itr = atl.iterator();
@@ -142,8 +142,11 @@ public abstract class AbstractTaskList {
 //        }
         for(int i=0;i<this.size();i++)
         {
-            atl.add(getTask(i));
+            //System.out.println(this.getTask(i));
+            atl.add(this.getTask(i));
+            //System.out.println(atl.getTask(0).getTitle());
         }
+   // atl.display();
         return atl;
     }
 
